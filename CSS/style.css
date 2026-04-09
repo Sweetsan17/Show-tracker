@@ -456,12 +456,22 @@ h1 {
     width: 20px;
 }
 
-.input-group input {
+.input-group input:focus {
     border: none;
     outline: none;
     width: 100%;
     font-size: 16px;
     color: #333;
+}
+
+.input-group .error {
+    color: rgb(242, 18, 18);
+    font-size: 16px;
+    margin-top: 5px;
+}
+
+.input-group.input {
+    border-color: #0cc477;
 }
 
 /* signup Button */
